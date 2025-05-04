@@ -1,0 +1,20 @@
+{
+    "name": "zsh",
+    "id": "zsh",
+    "version": "0.0.1",
+    "description": "ZSH with Oh My ZSH",
+    "options": {
+        "theme":{
+            "type": "string",
+            "default": "bira",
+            "proposals": [
+                "robbyrussell",
+                "bira"
+            ]
+        },
+        "plugins":{
+            "type": "string",
+            "default": "git kubectl helm opentofu terraform ansible"
+        }
+    }
+}
